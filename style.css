@@ -45,11 +45,12 @@
     right: 5%;
     top: 10px
 }
-.my-carousel{
-    width: 100% !important;
-    height: 95vh;
+.my-carousel {
+    width: 71%;
+    margin: auto;
 }
-.my-carousel img{
-    height: 88vh;
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
 }
-
