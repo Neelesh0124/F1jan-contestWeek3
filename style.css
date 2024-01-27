@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif !important; 
+}
+
+/*----navbar-----*/
+.navbar{
+    padding: 15px 5%;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: white;
+
+}
+.navlogo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav-link{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: black !important;
+}
+
+.searchbar{
+ 
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #ccc !important; 
+    border-radius: 8px;
+    outline-offset: 0px;
+}
+.login-btn{
+    font-size: 18px;
+    border-radius: 6px;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 5%;
+    top: 10px
+}
+.my-carousel{
+    width: 100% !important;
+    height: 95vh;
+}
+.my-carousel img{
+    height: 88vh;
+}
+
