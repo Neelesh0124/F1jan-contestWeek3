@@ -185,6 +185,22 @@ nav .btn{
       }
   }
   @media screen and (min-width: 769px) and (max-width: 992px) {
+    .container-fluid{
+      justify-content: center !important;
+    }
+    .container-fluid h1{
+      margin: 10px 0 15px 0 !important;
+    }
+    .navbar-collapse{
+      flex-grow: 0;
+    }
+    .navbar{
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+    .navbar ul{
+      margin-right: 0px !important;
+    }
     .row-grid {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: 
@@ -197,5 +213,9 @@ nav .btn{
       .row-grid .image6 {
         display: none;
       }
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+
+
   }
   
